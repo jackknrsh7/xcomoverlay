@@ -1,0 +1,13 @@
+# Don't track content of these folders
+
+.vs/
+[Bb]in
+[Oo]bj
+
+# Compiled source #
+###################
+
+*.dll
+*.exe
+*.pki
+*.csproj.user
