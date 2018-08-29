@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:OverlayMain"
         xmlns:compass="clr-namespace:Compass;assembly=Compass"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1920" Width="1080">
+        Title="MainWindow">
+    <Window.Width>1920</Window.Width>
+    <Window.Height>1080</Window.Height>
     <Canvas>
         <Canvas.Background>#FF00FF</Canvas.Background>
         <compass:CompassControl
