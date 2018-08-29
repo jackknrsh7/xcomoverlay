@@ -1,0 +1,19 @@
+﻿<Window x:Class="OverlayMain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OverlayMain"
+        xmlns:compass="clr-namespace:Compass;assembly=Compass"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1920" Width="1080">
+    <Canvas>
+        <Canvas.Background>#FF00FF</Canvas.Background>
+        <compass:CompassControl
+            Canvas.Right="30"
+            Canvas.Top="30"
+            Height="256"
+            Width="256"
+            />
+    </Canvas>
+</Window>

@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass", "Compass\Compass.csproj", "{AF36CAB4-C2D4-455F-A0F0-E23B67DCDDCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlayMain", "OverlayMain\OverlayMain.csproj", "{0987A5BF-6E6C-4872-AA2B-B2009351180C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{6489E154-71C5-4F68-8DF7-3C11ACFC406E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,19 @@ Global
 		{AF36CAB4-C2D4-455F-A0F0-E23B67DCDDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF36CAB4-C2D4-455F-A0F0-E23B67DCDDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF36CAB4-C2D4-455F-A0F0-E23B67DCDDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0987A5BF-6E6C-4872-AA2B-B2009351180C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0987A5BF-6E6C-4872-AA2B-B2009351180C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0987A5BF-6E6C-4872-AA2B-B2009351180C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0987A5BF-6E6C-4872-AA2B-B2009351180C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6489E154-71C5-4F68-8DF7-3C11ACFC406E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6489E154-71C5-4F68-8DF7-3C11ACFC406E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6489E154-71C5-4F68-8DF7-3C11ACFC406E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6489E154-71C5-4F68-8DF7-3C11ACFC406E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B00E0F33-1F31-403D-8076-AD246E54F275}
 	EndGlobalSection
 EndGlobal

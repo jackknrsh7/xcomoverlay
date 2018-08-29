@@ -1,0 +1,16 @@
+﻿<common:KeyListeningControl x:Class="Compass.CompassControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Compass"
+             xmlns:common="clr-namespace:Common;assembly=Common"
+             mc:Ignorable="d" 
+             d:DesignHeight="256" d:DesignWidth="256">
+    <UserControl.Background>
+        <SolidColorBrush Color="#FF00FF"/>
+    </UserControl.Background>
+    <Grid>
+        <Image Name="Compass" Height="256" Width="256" Margin="0" Source="Resource/TopLeft.png"/>
+    </Grid>
+</common:KeyListeningControl>
